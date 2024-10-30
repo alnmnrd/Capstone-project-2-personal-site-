@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding-top: 100px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.presentation {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.hero {
+    background-color:  #FAF7F0;
+    text-align: center;
+    padding-top: 0px;
+    display: block;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footo {
+    background-color:  #B17457;
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+.footo a {
+    text-decoration: none;
+    color: #4A4947;
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+}
+
+.footo a:hover {
+    color: #FAF7F0;
+}
+
+.footo p {
+    padding: 30px 0 10px;
+    color: #FAF7F0;
+    font-size: x-small
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.profile-text {
+    align-self: center;
+    max-width: 400px;
+    text-align:justify ;
+}
+
+.profile-image {
+
+}
+
+.plane {
+    text-align:right;
+    padding-top: 20px;
+}
+
+.bottom-links {
+    padding-top: 20px;
+}
+
+.computer {
+    text-align:left;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.box {
+    padding-top: 50px;
+}
+
+.skills p {
+    text-align: justify;
+}
+
+
+.presentation img {
+    border-radius: 50%;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.tables {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.picto {
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5.5rem;
+    color: #B17457;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #4A4947;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+div {
+    display: block;
+}
+
+hr {
+    border: dashed #B17457 10px;
+    border-bottom: none;
+    width: 10%;
+    margin: 75px auto; 
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #4A4947;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    color: #4A4947;
+}
+
+h3 {
+    color: #B17457;
+    font-size: 1.5rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+Button {
+    color: #FAF7F0;
+    font-size: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #B17457;
+    border-radius: 8%;
+    padding: 10px 20px 10px 20px;
+    margin: 30px;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+Button:hover {
+    background-color: #4A4947;
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+    .presentation {
+        display: block;
+        text-align: center;
+    }
+
+    .profile-text {
+        padding-top: 30px;
+    }
+
+    .tables {
+        display: block;
+        text-align: center;
+    }
+
+    .skills p {
+        text-align: center;
+    }
+}

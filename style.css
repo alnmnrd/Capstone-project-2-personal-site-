@@ -170,7 +170,7 @@ Button:hover {
     cursor: pointer;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1200px){
     .presentation {
         display: block;
         text-align: center;
